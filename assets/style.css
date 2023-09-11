@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+ }
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #E94560
+}
+.contact{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #533483;
+}
+.content{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #0F3460;
+}
+nav a:hover {
+    font-weight: bold;
+}
+.home{
+    background-image: url("img/Home.png");
+    background-position-x: center;
+    font-family: Montserrat,sans-serif;
+    font-size: 2em;
+    padding: 50px;
+    padding-top: 200px;
+}
+
+nav {
+    background-color: #16213E;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+}
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+nav li {
+    display: inline;
+    margin-left: 5px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+.profile img {
+    width: 200px;
+}
+.school img {
+    width: 300px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+main aside {
+    position: fixed;
+    inset-block: 0;
+    inset-inline-end: 0;
+  }
+   
+main aside .social-media {
+    height: 100%;
+    display: flex;
+  }
+   
+main aside .social-media ul {
+    padding: 1.5rem 1rem;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: #5b7ea4;
+   
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+   
+main aside .social-media li {
+    list-style-type: none;
+  }
+
+main aside .social-media li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    transition: all .1s ease-in-out;
+  }
+   
+main aside .social-media li a:hover {
+    color: #89b0d9;
+  }
+
+main {
+    width: 100%;
+    padding: 0px;
+    overflow: auto;
+}
+* {
+    box-sizing: border-box;
+  } 
+
+@media screen and (max-width: 1000px) {
+    #content {
+      width: 100%;
+      padding: 20px;
+    }
+  }
